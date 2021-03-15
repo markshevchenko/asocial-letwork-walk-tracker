@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "fabulous-cli": {
+      "version": "0.61.0",
+      "commands": [
+        "fabulous"
+      ]
+    }
+  }
+}
