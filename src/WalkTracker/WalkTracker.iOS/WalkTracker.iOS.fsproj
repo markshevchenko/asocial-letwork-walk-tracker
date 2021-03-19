@@ -7,13 +7,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1F602EF5-1523-49EC-B581-79777FEC95BD}</ProjectGuid>
+    <ProjectGuid>{F315D846-715F-40F8-B1B1-5D60C356EDCA}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GpsTracker.iOS</RootNamespace>
+    <RootNamespace>WalkTracker.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>GpsTracker.iOS</AssemblyName>
+    <AssemblyName>WalkTracker.iOS</AssemblyName>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -165,9 +165,9 @@
     <Reference Include="System.Buffers">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.dll</HintPath>
     </Reference>
-    <ProjectReference Include="..\GpsTracker\GpsTracker.fsproj">
-      <Project>{383670A3-685E-4394-AABC-3197F575F986}</Project>
-      <Name>GpsTracker</Name>
+    <ProjectReference Include="..\WalkTracker\WalkTracker.fsproj">
+      <Project>{592CAFC5-6FF9-42CB-8229-332D749A58F8}</Project>
+      <Name>WalkTracker</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

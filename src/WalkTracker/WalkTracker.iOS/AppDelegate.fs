@@ -1,5 +1,5 @@
 ﻿// Copyright 2018 Fabulous contributors. See LICENSE.md for license.
-namespace GpsTracker.iOS
+namespace WalkTracker.iOS
 
 open System
 open UIKit
@@ -13,7 +13,7 @@ type AppDelegate () =
 
     override this.FinishedLaunching (app, options) =
         Forms.Init()
-        let appcore = new GpsTracker.App()
+        let appcore = new WalkTracker.App()
         this.LoadApplication (appcore)
         base.FinishedLaunching(app, options)
 

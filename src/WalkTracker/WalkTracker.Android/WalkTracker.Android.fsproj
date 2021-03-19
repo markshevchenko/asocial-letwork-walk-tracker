@@ -5,12 +5,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{112A528E-9108-4E8A-89A1-6D20FC697AEA}</ProjectGuid>
+    <ProjectGuid>{6952FA91-8B56-421E-B75A-5B61653C569E}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
     <UseStandardResourceNames>true</UseStandardResourceNames>
     <OutputType>Library</OutputType>
-    <RootNamespace>GpsTracker.Android</RootNamespace>
-    <AssemblyName>GpsTracker.Android</AssemblyName>
+    <RootNamespace>WalkTracker.Android</RootNamespace>
+    <AssemblyName>WalkTracker.Android</AssemblyName>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -20,8 +20,8 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <SelectedDevice>Android Emulator</SelectedDevice>
-    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
+    <SelectedDevice>pixel_3a_xl_pie_9_0_-_api_28</SelectedDevice>
+    <ActiveDebugProfile>pixel_3a_xl_pie_9_0_-_api_28</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,9 +64,9 @@
     <Compile Include="MainActivity.fs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GpsTracker\GpsTracker.fsproj">
-      <Project>{383670A3-685E-4394-AABC-3197F575F986}</Project>
-      <Name>GpsTracker</Name>
+    <ProjectReference Include="..\WalkTracker\WalkTracker.fsproj">
+      <Project>{592CAFC5-6FF9-42CB-8229-332D749A58F8}</Project>
+      <Name>WalkTracker</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

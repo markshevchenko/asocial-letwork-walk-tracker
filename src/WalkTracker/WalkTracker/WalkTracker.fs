@@ -1,5 +1,5 @@
 ﻿// Copyright Fabulous contributors. See LICENSE.md for license.
-namespace GpsTracker
+namespace WalkTracker
 
 open System.Diagnostics
 open Fabulous

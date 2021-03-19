@@ -1,4 +1,4 @@
-﻿namespace GpsTracker.Android
+﻿namespace WalkTracker.Android
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -6,17 +6,17 @@ open System.Runtime.InteropServices
 open Android.App
 
 // the name of the type here needs to match the name inside the ResourceDesigner attribute
-type Resources = GpsTracker.Android.Resource
-[<assembly: Android.Runtime.ResourceDesigner("GpsTracker.Android.Resources", IsApplication=true)>]
+type Resources = WalkTracker.Android.Resource
+[<assembly: Android.Runtime.ResourceDesigner("WalkTracker.Android.Resources", IsApplication=true)>]
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("GpsTracker.Android")>]
+[<assembly: AssemblyTitle("WalkTracker.Android")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("GpsTracker.Android")>]
+[<assembly: AssemblyProduct("WalkTracker.Android")>]
 [<assembly: AssemblyCopyright("Copyright ©  2014")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]

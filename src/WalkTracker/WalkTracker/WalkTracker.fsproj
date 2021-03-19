@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="GpsTracker.fs" />
+    <Compile Include="WalkTracker.fs" />
   </ItemGroup>
   
   <ItemGroup>

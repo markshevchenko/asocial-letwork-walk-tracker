@@ -1,5 +1,5 @@
 ﻿// Copyright 2018 Fabulous contributors. See LICENSE.md for license.
-namespace GpsTracker.Android
+namespace WalkTracker.Android
 
 open System
 
@@ -11,9 +11,9 @@ open Android.Views
 open Android.Widget
 open Android.OS
 open Xamarin.Forms.Platform.Android
-open GpsTracker
+open WalkTracker
 
-[<Activity (Label = "GpsTracker.Android", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = (ConfigChanges.ScreenSize ||| ConfigChanges.Orientation))>]
+[<Activity (Label = "WalkTracker.Android", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = (ConfigChanges.ScreenSize ||| ConfigChanges.Orientation))>]
 type MainActivity() =
     inherit FormsAppCompatActivity()
     override this.OnCreate(bundle: Bundle) =
